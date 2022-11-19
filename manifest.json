@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "OraChess",
+    "description": "Allow to play on chess.com by voice",
+    "version": "0.1",
+    "action": {
+        "default_popup": "main.html"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+            }
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.chess.com/*"],
+            "js": ["mainScript.js"]
+        }
+    ]
+}

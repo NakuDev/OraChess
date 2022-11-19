@@ -1,0 +1,27 @@
+body {
+    width: 150px;
+    height: 100px;
+    background-color: #262421;
+}
+
+h1 {
+    font-family: 'Georgia', 'sans serif';
+    color: darkgreen;
+    text-align: center;
+}
+
+#startbutton {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    border-radius: 30px;
+}
+.On {
+    background-color: darkgreen;
+}
+.Off {
+    background-color: red;
+}
